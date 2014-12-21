@@ -24,33 +24,34 @@ I create one R script called run_analysis.R that does the following. Merges the 
 Uses descriptive activity names to name the activities in the data set Appropriately labels the data set with descriptive activity names. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 first, when you extract the file you can see more detailed description of the original dataset, refer to README.txt and features_info.txt. The original data set is divide into train and test which is parted three file for each two folder.
-*the measurements 
-*the labels for activity
-*the subject identifiers
+* the measurements 
+* the labels for activity
+* the subject identifiers
 
 The files that will be used to load data are listed as follows:
-*test/subject_test.txt
-*test/X_test.txt
-*test/y_test.txt
-*train/subject_train.txt
-*train/X_train.txt
-*train/y_train.txt
+* test/subject_test.txt
+* test/X_test.txt
+* test/y_test.txt
+* train/subject_train.txt
+* train/X_train.txt
+* train/y_train.txt
 
 The tidy data provided the activity label
-*LAYING
-*SITTING
-*STANDING
-*WALKING
-*WALKING_DOWNSTAIR
-*WALKING_UPSTAIRS
+* LAYING
+* SITTING
+* STANDING
+* WALKING
+* WALKING_DOWNSTAIR
+* WALKING_UPSTAIRS
 
 
-for the folder and file we can know
-1.Values of Varible Activity consist of data from “Y_train.txt” and “Y_test.txt”
-2.values of Varible Subject consist of data from “subject_train.txt” and subject_test.txt"
-3.Values of Varibles Features consist of data from “X_train.txt” and “X_test.txt”
-4.Names of Varibles Features come from “features.txt”
-5.levels of Varible Activity come from “activity_labels.txt”
+for the folder and file we can know:
+
+1) Values of Varible Activity consist of data from “Y_train.txt” and “Y_test.txt”
+2) values of Varible Subject consist of data from “subject_train.txt” and subject_test.txt"
+3) Values of Varibles Features consist of data from “X_train.txt” and “X_test.txt”
+4) Names of Varibles Features come from “features.txt”
+5) levels of Varible Activity come from “activity_labels.txt”
 
 So we will use Activity, Subject and Features as part of descriptive variable names for data in data frame.
 
