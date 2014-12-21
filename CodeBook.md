@@ -48,9 +48,13 @@ The tidy data provided the activity label
 for the folder and file we can know:
 
 1) Values of Varible Activity consist of data from “Y_train.txt” and “Y_test.txt”
+
 2) values of Varible Subject consist of data from “subject_train.txt” and subject_test.txt"
+
 3) Values of Varibles Features consist of data from “X_train.txt” and “X_test.txt”
+
 4) Names of Varibles Features come from “features.txt”
+
 5) levels of Varible Activity come from “activity_labels.txt”
 
 So we will use Activity, Subject and Features as part of descriptive variable names for data in data frame.
